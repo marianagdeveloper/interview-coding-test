@@ -1,6 +1,6 @@
 const expect = require("chai").expect;
 
-const coTest = require("../src/coTest");
+const coTest = require("../src/coTest30");
 const CarInsurance = coTest.CarInsurance;
 const Product = coTest.Product;
 
@@ -12,7 +12,7 @@ describe("Alternative of a Coverage Report for 10 days", function () {
 
     //alternative of a coverage report
     const coTest = new CarInsurance([
-      new Product("Special Full Coverage", 15, 20),
+      new Product('Super Sale', 3, 6),
     ]);
    
     const productPrinter = function (product) {
